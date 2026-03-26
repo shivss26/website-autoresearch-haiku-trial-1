@@ -1,4 +1,4 @@
 commit	perf	a11y	bp	seo	composite	status	description
 f8d69ba	67	59	86	64	69.0	baseline	initial page state
 0a495d6	56	100	96	100	88.0	keep	add meta tags, fix HTML structure, remove bloat CSS
-72ca797	-	-	-	-	-	pending	optimize hero and bg images, add img dimensions
+7b7991d	99	100	96	100	98.8	keep	optimize hero and bg images, add img dimensions
