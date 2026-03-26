@@ -44,7 +44,7 @@ Always append a cache-busting query parameter using the current git commit hash 
    ```
 3. Extract scores:
    ```
-   python -c "import json; d=json.load(open('lighthouse-report.json')); [print(f'{k}: {int(d[\"categories\"][k][\"score\"]*100)}') for k in ['performance','accessibility','best-practices','seo']]"
+   python -c "import json; d=json.load(open('lighthouse-report.json', encoding='utf-8')); [print(f'{k}: {int(d[\"categories\"][k][\"score\"]*100)}') for k in ['performance','accessibility','best-practices','seo']]"
    ```
 4. Delete the report immediately after extracting scores:
    ```
