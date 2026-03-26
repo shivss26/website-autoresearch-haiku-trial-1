@@ -4,3 +4,4 @@ commit	perf	a11y	bp	seo	composite	status	description
 00291a8	57	59	64	64	61.0	keep	removed blocking javascript loop and DOM bloat
 a079f9b	31	59	64	64	54.5	discard	removed global transitions and box-shadows
 f85f346	44	65	68	64	60.2	discard	added viewport and charset meta tags
+2f8fb4d	50	59	64	64	59.2	discard	removed 150+ unused CSS classes
